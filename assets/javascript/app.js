@@ -3,7 +3,7 @@ var sports = ["baseball", "football", "basketball", "soccer"];
 function displayGif() {
 	$(".gif-view").empty();
 	var sport = $(this).attr("data-name");
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=f241e457e606453891a30c097ff16e6c&limit=10";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=f241e457e606453891a30c097ff16e6c&limit=10";
 
 	$.ajax({
 		url: queryURL,
