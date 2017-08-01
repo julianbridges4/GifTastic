@@ -1,0 +1,26 @@
+.gif-display {
+	display: inline-block;
+	margin: 10px;
+	color: white;
+}
+
+.sport {
+	margin: 10px 5px;
+	border-radius: 4px;
+	background: #FF461F;
+	color: white;
+	border: 0;
+}
+
+body {
+	background: #ccc;
+}
+
+.form-group {
+	color: white;
+}
+
+.gif-view {
+	background: #1ACCC0;
+	border-radius: 4px;
+}
